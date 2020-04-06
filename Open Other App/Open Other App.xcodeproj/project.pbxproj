@@ -1,0 +1,363 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E97C158E20D2F05400D338E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97C158D20D2F05400D338E3 /* AppDelegate.swift */; };
+		E97C159020D2F05400D338E3 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97C158F20D2F05400D338E3 /* LoginController.swift */; };
+		E97C159520D2F05800D338E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E97C159420D2F05800D338E3 /* Assets.xcassets */; };
+		E97C159820D2F05800D338E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E97C159620D2F05800D338E3 /* LaunchScreen.storyboard */; };
+		E97C15A120D419CF00D338E3 /* FitbitAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97C15A020D419CF00D338E3 /* FitbitAPI.swift */; };
+		E97C15A420D41C5400D338E3 /* AuthenticationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97C15A320D41C5400D338E3 /* AuthenticationController.swift */; };
+		E97C15AB20DA97D500D338E3 /* DataSyncController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97C15AA20DA97D500D338E3 /* DataSyncController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E97C158A20D2F05400D338E3 /* Open Other App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Open Other App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E97C158D20D2F05400D338E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E97C158F20D2F05400D338E3 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		E97C159420D2F05800D338E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E97C159720D2F05800D338E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E97C159920D2F05800D338E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E97C15A020D419CF00D338E3 /* FitbitAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitbitAPI.swift; sourceTree = "<group>"; };
+		E97C15A320D41C5400D338E3 /* AuthenticationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationController.swift; sourceTree = "<group>"; };
+		E97C15AA20DA97D500D338E3 /* DataSyncController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSyncController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E97C158720D2F05400D338E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E97C158120D2F05400D338E3 = {
+			isa = PBXGroup;
+			children = (
+				E97C158C20D2F05400D338E3 /* Open Other App */,
+				E97C158B20D2F05400D338E3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E97C158B20D2F05400D338E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E97C158A20D2F05400D338E3 /* Open Other App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E97C158C20D2F05400D338E3 /* Open Other App */ = {
+			isa = PBXGroup;
+			children = (
+				E97C15A520D99EC700D338E3 /* Data */,
+				E97C15A220D41C3500D338E3 /* Authentication */,
+				E97C159F20D419B800D338E3 /* Fitbit */,
+				E97C158D20D2F05400D338E3 /* AppDelegate.swift */,
+				E97C159420D2F05800D338E3 /* Assets.xcassets */,
+				E97C159620D2F05800D338E3 /* LaunchScreen.storyboard */,
+				E97C159920D2F05800D338E3 /* Info.plist */,
+			);
+			path = "Open Other App";
+			sourceTree = "<group>";
+		};
+		E97C159F20D419B800D338E3 /* Fitbit */ = {
+			isa = PBXGroup;
+			children = (
+				E97C15A020D419CF00D338E3 /* FitbitAPI.swift */,
+			);
+			path = Fitbit;
+			sourceTree = "<group>";
+		};
+		E97C15A220D41C3500D338E3 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				E97C158F20D2F05400D338E3 /* LoginController.swift */,
+				E97C15A320D41C5400D338E3 /* AuthenticationController.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		E97C15A520D99EC700D338E3 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				E97C15AA20DA97D500D338E3 /* DataSyncController.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E97C158920D2F05400D338E3 /* Open Other App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E97C159C20D2F05800D338E3 /* Build configuration list for PBXNativeTarget "Open Other App" */;
+			buildPhases = (
+				E97C158620D2F05400D338E3 /* Sources */,
+				E97C158720D2F05400D338E3 /* Frameworks */,
+				E97C158820D2F05400D338E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Open Other App";
+			productName = "Open Other App";
+			productReference = E97C158A20D2F05400D338E3 /* Open Other App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E97C158220D2F05400D338E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "pratul patwari";
+				TargetAttributes = {
+					E97C158920D2F05400D338E3 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = E97C158520D2F05400D338E3 /* Build configuration list for PBXProject "Open Other App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E97C158120D2F05400D338E3;
+			productRefGroup = E97C158B20D2F05400D338E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E97C158920D2F05400D338E3 /* Open Other App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E97C158820D2F05400D338E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E97C159820D2F05800D338E3 /* LaunchScreen.storyboard in Resources */,
+				E97C159520D2F05800D338E3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E97C158620D2F05400D338E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E97C159020D2F05400D338E3 /* LoginController.swift in Sources */,
+				E97C15A420D41C5400D338E3 /* AuthenticationController.swift in Sources */,
+				E97C15AB20DA97D500D338E3 /* DataSyncController.swift in Sources */,
+				E97C15A120D419CF00D338E3 /* FitbitAPI.swift in Sources */,
+				E97C158E20D2F05400D338E3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E97C159620D2F05800D338E3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E97C159720D2F05800D338E3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E97C159A20D2F05800D338E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E97C159B20D2F05800D338E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E97C159D20D2F05800D338E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BBCKRNS692;
+				INFOPLIST_FILE = "Open Other App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "llc.mirus.Open-Other-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E97C159E20D2F05800D338E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BBCKRNS692;
+				INFOPLIST_FILE = "Open Other App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "llc.mirus.Open-Other-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E97C158520D2F05400D338E3 /* Build configuration list for PBXProject "Open Other App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E97C159A20D2F05800D338E3 /* Debug */,
+				E97C159B20D2F05800D338E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E97C159C20D2F05800D338E3 /* Build configuration list for PBXNativeTarget "Open Other App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E97C159D20D2F05800D338E3 /* Debug */,
+				E97C159E20D2F05800D338E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E97C158220D2F05400D338E3 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_MultiLineChart {
+  umbrella header "Pods-MultiLineChart-umbrella.h"
+
+  export *
+  module * { export * }
+}
